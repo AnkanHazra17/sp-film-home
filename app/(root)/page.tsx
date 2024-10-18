@@ -1,5 +1,4 @@
 import CustomCarousel from "@/components/core/CustomCarousel";
-import { Button } from "@/components/ui/button";
 import MagicButton from "@/components/ui/magic-button";
 import { MoveRight } from "lucide-react";
 import Image from "next/image";
