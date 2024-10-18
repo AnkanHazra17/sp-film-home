@@ -2,34 +2,25 @@ import Image from "next/image";
 import React from "react";
 import CustomNavigationMenu from "./CustomNavigationMenu";
 import { navItems } from "@/constants/data";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "../ui/navigation-menu";
-import { Button } from "../ui/button";
 import MobileNavBar from "./MobileNavBar";
 
-const shoppingNavItem = {
-  label: "Coated products",
-  subNavItems: [
-    {
-      subLabel: "TPU heat repair protective film (full roll)",
-    },
-    {
-      subLabel: "Headlight protective film (full roll)",
-    },
-    {
-      subLabel: "Color changing film (full roll)",
-    },
-    {
-      subLabel: "Film application tools",
-    },
-  ],
-};
+// const shoppingNavItem = {
+//   label: "Coated products",
+//   subNavItems: [
+//     {
+//       subLabel: "TPU heat repair protective film (full roll)",
+//     },
+//     {
+//       subLabel: "Headlight protective film (full roll)",
+//     },
+//     {
+//       subLabel: "Color changing film (full roll)",
+//     },
+//     {
+//       subLabel: "Film application tools",
+//     },
+//   ],
+// };
 
 const NavBar = () => {
   return (
